@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   background: #000;
@@ -19,19 +20,34 @@ nav {
   align-items: center;
   padding: 15px 50px;
 }
-nav img.logo { width: 100px; }
-nav ul { list-style: none; display: flex; gap: 20px; }
-nav ul li a { text-decoration: none; color: #fff; }
+
+nav img.logo {
+  width: 100px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
 nav input {
   padding: 5px;
   border-radius: 5px;
   border: none;
 }
+
 /* Hero */
 .hero {
   text-align: center;
   padding: 60px 20px 20px;
 }
+
 .hero h1 {
   color: #ff0033;
   font-size: 40px;
@@ -42,6 +58,7 @@ nav input {
 .section {
   padding: 40px;
 }
+
 .section h2 {
   font-size: 22px;
   margin-bottom: 20px;
@@ -51,15 +68,17 @@ nav input {
 }
 
 /* Cards */
-.margin{
+.margin {
   margin-left: 200px;
 }
+
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 25%));
   gap: 25px;
   justify-content: center;
 }
+
 .card {
   background: #171a1fff;
   border-radius: 15px;
@@ -70,9 +89,11 @@ nav input {
   transition: 0.3s;
 
 }
+
 .card:hover {
   transform: translateY(-5px);
 }
+
 .card img {
   width: 100%;
   height: 230px;
@@ -80,21 +101,25 @@ nav input {
   right: 0px;
   top: 0px;
 }
+
 .card h3 {
   font-size: 18px;
   margin-top: 220px;
   margin-bottom: 10px;
 }
+
 .card p {
   font-size: 14px;
   color: #aaa;
   margin-bottom: 10px;
 }
+
 .card .meta {
   font-size: 13px;
   color: #888;
   margin-bottom: 15px;
 }
+
 .card .tag {
   position: absolute;
   top: 15px;
@@ -116,12 +141,14 @@ nav input {
   text-decoration: none;
   font-size: 14px;
 }
+
 .btn:hover {
   opacity: 0.85;
 }
-.link{
-    text-decoration: none;
-    color: #ffffff;
+
+.link {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 /* Load More */
@@ -129,6 +156,7 @@ nav input {
   text-align: center;
   margin-top: 70px;
 }
+
 .load-more button {
   padding: 10px 20px;
   background: #ff0033;
@@ -136,7 +164,9 @@ nav input {
   color: #fff;
   border-radius: 4px;
   cursor: pointer;
+  margin-top: 50px;
 }
+
 .load-more button:hover {
   opacity: 0.9;
 }
@@ -148,6 +178,7 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
 footer ul {
   list-style: none;
   display: flex;
@@ -155,4 +186,8 @@ footer ul {
   gap: 20px;
   margin-bottom: 10px;
 }
-footer ul li { color: white; cursor: pointer; }
+
+footer ul li {
+  color: white;
+  cursor: pointer;
+}
